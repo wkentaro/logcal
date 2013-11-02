@@ -15,7 +15,9 @@
   <title>LogCal - Time Calculation</title>
   <link rel="index" href="/" title="LogCal">
   <link rel="shortcut icon" href="/assets/ico/favicon.ico">
-  <link href="/dist/css/bootstrap.css" type="text/css" rel="stylesheet">
+  <link href="./dist/css/bootstrap.css" type="text/css" rel="stylesheet">
+  <script src="./assets/js/jquery.js"></script>
+  <script src="./dist/js/bootstrap.js"></script>
   <style>
     body{
       padding-top: 20px;
@@ -50,6 +52,7 @@
   <div class="navbar navbar-default navbar-inverse">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -58,9 +61,9 @@
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">TOP</a></li>
-        <li><a href="#">PREP</a></li>
-        <li><a href="#">TIPS</a></li>
+        <li class="active"><a href="/">TOP</a></li>
+        <li><a href="/">PREP</a></li>
+        <li><a href="/">TIPS</a></li>
       </ul>
       <div class="navbar-form navbar-right">
         <a href="#" class="btn btn-primary">Sign in Google</a>
