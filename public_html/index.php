@@ -14,7 +14,7 @@
   <meta property="og:site_name" content="LogCal">
   <title>LogCal - Time Calculation</title>
   <link rel="index" href="/" title="LogCal">
-  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="shortcut icon" href="/assets/ico/favicon.ico">
   <link href="/dist/css/bootstrap.css" type="text/css" rel="stylesheet">
   <style>
     body{
