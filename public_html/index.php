@@ -6,18 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="LogCal, Google Calendar, Gcal, Life Log, Life Style, Time Management">
   <meta name="description" content="Manage your time using LogCal with Google Calendar.">
-  <meta property="og:title" content="LogCal">
-  <meta property="og:type" content="website">
-  <meta property="og:description" content="Manage your time using LogCal with Google Calendar.">
-  <meta property="og:url" content="http://logcal.ddo.jp/en/">
-  <meta property="og:image" content="http://logcal.ddo.jp/en/assets/img/logcal_large.png">
-  <meta property="og:site_name" content="LogCal">
-  <title>LogCal - Time Calculation</title>
+  <title>LogCal | Event Time Calculation of Google Calendar.</title>
   <link rel="index" href="/" title="LogCal">
   <link rel="shortcut icon" href="/assets/ico/favicon.ico">
-  <link href="./dist/css/bootstrap.css" type="text/css" rel="stylesheet">
-  <script src="./assets/js/jquery.js"></script>
-  <script src="./dist/js/bootstrap.js"></script>
+  <link href="/dist/css/bootstrap.css" type="text/css" rel="stylesheet">
+  <script src="/assets/js/jquery.js"></script>
+  <script src="/dist/js/bootstrap.js"></script>
   <style>
     #why-panel {
       background-color: #5cb85c;
@@ -77,6 +71,7 @@
       background-color: #5cb85c;
     }
   </style>
+  <?php include_once("analyticstracking.php") ?>
 </head>
 <body>
 <div class="container" id="header">
