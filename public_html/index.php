@@ -19,11 +19,42 @@
   <script src="./assets/js/jquery.js"></script>
   <script src="./dist/js/bootstrap.js"></script>
   <style>
+    #why-panel {
+      background-color: #5cb85c;
+      border-color: #7d7d7d;
+      padding-top: 0;
+      padding-bottom: 10px;
+    }
+    #how-panel {
+      background-color: #5cb85c;
+      border-color: #7d7d7d;
+      padding-top: 0;
+      padding-bottom: 25px;
+    }
+    #why-table-panel {
+      background-color: #5cb85c;
+      margin-bottom: 0;
+      margin-top: 20px;
+    }
+    .label {
+      border-color: #7d7d7d;
+      border-style: solid;
+      border-width: .1em;
+    }
     body{
       padding-top: 20px;
       padding-bottom: 20px;
       /*background-color: #dddddd;*/
       background-color: #5cb85c;
+    }
+    .col-sm-12 h2 {
+      color: #7d7d7d;
+      font-size: 30px;
+      padding-top: 20px;
+      padding-bottom: 10px;
+    }
+    #header {
+      border-bottom: 1px solid #7d7d7d;
     }
     .jumbotron h1 {
       color: #f8f8f8;
@@ -48,7 +79,7 @@
   </style>
 </head>
 <body>
-<div class="container">
+<div class="container" id="header">
   <div class="navbar navbar-default navbar-inverse">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -82,3 +113,86 @@
   </div>
 </div>
 
+<div class="container" id="why">
+  <div class="row">
+    <div class="col-sm-12">
+      <h2 class="text-center">Why LogCal?</h2>
+      <div class="col-sm-4">
+        <div class="panel panel-default" id="why-panel">
+          <div class="container">
+            <h3 class="text-center">Start Today.</h3>
+            <p class="text-center"><b>LogCal</b> calculates the time with yesterday's data. You can start from anytime.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="panel panel-default" id="why-panel">
+          <div class="container">
+            <h3 class="text-center">Review Time Using.</h3>
+            <p class="text-center">Using <b>LogCal</b>, review your life style and time using. Gasping the present situation is very important.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="panel panel-default" id="why-panel">
+          <div class="container">
+            <h3 class="text-center">Think the Time.</h3>
+            <p>Be consious the time you have spent and are spending for your activity!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="how">
+  <div class="row">
+    <div class="col-sm-12">
+      <h2 class="text-center">How to Use?</h2>
+      <div class="col-sm-4">
+        <div class="panel panel-default" id="how-panel">
+          <div class="container">
+            <h3 class="text-center">step1</h3>
+            <p class="text-center">Make Calendars you want LogCal to caluculate the time in Google Calendar.</p>
+            <div class="text-center">
+              <span class="label label-inverse">Life</span>
+              <span class="label label-danger">School</span>
+              <span class="label label-primary">Activity</span>
+              <span class="label label-warning">Hobby</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="panel panel-default" id="how-panel">
+          <div class="container">
+            <h3 class="text-center">step2</h3>
+            <p class="text-center">Input your life log in the Calendars.<br/>this may be hard, but try for a day!</p>
+            <div class="panel panel-default" id="why-table-panel">
+              <table class="table table-bordered">
+                <tbody>
+                  <tr><td class="text-center">10:00</td><td style="background-color:#428bca;border-color:transparent;">Event</td><td style="background-color:#d9534f;border-color:transparent;">Class</td></tr>
+                  <tr><td class="text-center">11:00</td><td style="background-color:#428bca;border-color:transparent;"></td><td style="background-color:#d9534f;border-color:transparent;"></td></tr>
+                  <tr><td class="text-center">12:00</td><td style="border-color:transparent;">Lunch</td><td style="background-color:#d9534f;border-color:transparent;"></td></tr>
+                  <tr><td class="text-center">13:00</td><td style="background-color:#f0ad4e;border-color:transparent;">Movie</td><td style="border-color:transparent;">Lunch</td></tr>
+                  <tr><td class="text-center">14:00</td><td style="background-color:#f0ad4e;border-color:transparent;"></td><td style="background-color:#d9534f;border-color:transparent;">Class</td></tr>
+                  <tr><td class="text-center">15:00</td><td style="background-color:#f0ad4e;border-color:transparent;"></td><td style="background-color:#d9534f;border-color:transparent;"></td></tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="panel panel-default" id="how-panel">
+          <div class="container">
+            <h3 class="text-center">step3</h3>
+            <p class="text-center">Check the result!<br/>( the data is of yesterday. )</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
