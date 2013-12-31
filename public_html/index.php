@@ -1,3 +1,4 @@
+<?php include_once('include/redirect_to_new_host.php'); ?>
 <!doctype html>
 <html lang="en">
 <head>
